@@ -1,0 +1,17 @@
+header {
+    color:blue
+}
+
+nav {
+    color:aqua;
+}
+p {
+    color:blueviolet;
+}
+.good {
+    border-radius: 25px;
+    }
+
+body {
+    background-color: darkblue;
+}
