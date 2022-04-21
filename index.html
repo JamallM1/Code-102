@@ -25,6 +25,13 @@
         <script>
             let name = prompt("What is your name?",)
             document.write("hello" + name)
+            let cat = prompt("How many cats do you want?")
+            for (let i=0;i <cat;i++){
+                document.write('<img class="good" src="https://loremflickr.com/640/360" alt="cat">')
+                
+            }
+
+            
         </script>
         <h2>Catzilla</h2>
         <img class="good" src="https://loremflickr.com/640/360
@@ -35,13 +42,20 @@
 
         <footer>
             <script>
-                if (time < 10 ) {
-                    greeting = "good morning";
-                } else if (time < 20) {
-                    greeting = "good day";
-                } else{
-                    greeting = "good evening";
+                function loop1(){
+
+                };
+                let time = prompt ("what time is it?");
+                if (time <= 10 ) {
+                    document.write ("good morning");
+                } else if (time <= 20) {
+                    document.write = ("good day");
+                } else alert ("invalid number please try again");
+
+                {
+                loop1();
                 }
+                
 
             </script>
 
