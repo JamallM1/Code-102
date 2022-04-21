@@ -26,7 +26,7 @@
             let name = prompt("What is your name?",)
             document.write("hello" + name)
             let cat = prompt("How many cats do you want?")
-            for (let i=0;i <cat;i++){
+            for (let i=1;i <cat;i++){
                 document.write('<img class="good" src="https://loremflickr.com/640/360" alt="cat">')
                 
             }
@@ -44,17 +44,17 @@
             <script>
                 function loop1(){
 
+                    let time = prompt("what time is it?");
+                    if (time <= 10 ) {
+                        document.write("good morning");
+                    } else if (time <= 20) {
+                        document.write("good day");
+                    } else{alert("invalid number please try again")}
                 };
-                let time = prompt ("what time is it?");
-                if (time <= 10 ) {
-                    document.write ("good morning");
-                } else if (time <= 20) {
-                    document.write = ("good day");
-                } else alert ("invalid number please try again");
 
-                {
+                
                 loop1();
-                }
+                
                 
 
             </script>
