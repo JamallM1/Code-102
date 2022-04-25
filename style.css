@@ -1,17 +1,17 @@
 header {
-    color:blue
+    color: navy;
 }
 
 nav {
-    color:aqua;
+    color:gray
 }
 p {
-    color:blueviolet;
+    color:black;
 }
 .good {
     border-radius: 25px;
     }
 
 body {
-    background-color: darkblue;
+    background-color: lightgray;
 }
